@@ -1,0 +1,36 @@
+---
+layout: article
+title: "睇完 php 個 tutorial 佢"
+date: 2025-09-23 21:21:00 +0800
+modify_date: 2025-09-23 21::00 +0800
+category: log
+lightbox: true
+---
+
+今日就要睇完 [Laravel 12 Tutorial](https://www.youtube.com/watch?v=0M84Nk7iWkA&t=1268s) 佢，唔睇完都唔好訓，反正就系要趁打風放假嚟睇，唔系都唔夠時間了。屌佢老母了，爲咗份2皮幾嘢嘅工，搏命了。唔睇完，我真系食得屎了。
+
+有 [Perplexity](https://www.perplexity.ai/) 我就唔信我學唔知。屌佢老母臭閪，我仲要靠開公司搵大錢。唔好懶啊，屌你老母。
+
+開一個 public 嘅 [fuck_laravel_12](https://github.com/sokaOrochi/fuck_laravel_12) repo 用嚟記錄先得，順便練習下 git. 一邊睇視頻，記得仲要對住 [docs](https://laravel.com/docs/12.x/installation) 嚟睇。
+
+一定要做測試啊！屌你老母！！！！！
+
+----
+
+> 感覺以下內容應該放入 notes 度...
+
+Laravel Framework 版本：12.30.1
+
+```sh
+$ php artisan about
+```
+
+```php
+$person = [
+    "name" => "fucker"
+]
+    
+dd($person) // 隨時隨地 dump and die 任何你想睇嘅嘢
+```
+
+Stop @ 52:27 休息一下
