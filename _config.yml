@@ -34,7 +34,13 @@ plugins:
 
 text_skin: dark
 lang: en
-timezone: Asia/Shanghai
+
+# Mathjax
+mathjax: true
+mathjax_autoNumber: true
+
+# Mermaid
+mermaid: true
 
 # Exclude from processing.
 # The following items will not be processed, by default.
