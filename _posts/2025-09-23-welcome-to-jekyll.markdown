@@ -45,4 +45,5 @@ E --> F[存储服务]
     end
 ```
 
-[![一張可點擊放大的圖片](/assets/img/demo.png)](/assets/img/demo.png)
+{% capture image_path %}{{ '/assets/img/demo.png' | relative_url }}{% endcapture %}
+[![一張可點擊放大的圖片]({{ image_path }})]({{ image_path }})

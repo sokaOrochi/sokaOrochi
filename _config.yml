@@ -22,8 +22,8 @@ title: "Soka Orochi's Knowledge Management"
 email: sokaOrochi@protonmail.com
 description: >- # this means to ignore newlines until "baseurl:"
     A blog about knowledge management, personal growth, and technology.
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: "/sokaOrochi" # the subpath of your site, e.g. /blog
+url: "https://sokaorochi.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username:
 github_username: Soka Orochi
 
