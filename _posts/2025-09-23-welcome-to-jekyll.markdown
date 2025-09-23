@@ -45,5 +45,9 @@ E --> F[存储服务]
     end
 ```
 
+[//]: # (本地查看)
+[![一張可點擊放大的圖片](/assets/img/demo.png)](/assets/img/demo.png)
+
+[//]: # (公網查看)
 {% capture image_path %}{{ '/assets/img/demo.png' | relative_url }}{% endcapture %}
 [![一張可點擊放大的圖片]({{ image_path }})]({{ image_path }})
