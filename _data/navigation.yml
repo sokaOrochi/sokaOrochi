@@ -1,0 +1,11 @@
+header:
+  - title:      日誌
+    url:        /logs.html
+  - title:      想法
+    url:        /ideas.html
+  - title:      項目
+    url:        /projects.html
+  - title:      筆記
+    url:        /notes.html
+  - title:      關於
+    url:        /about.html
