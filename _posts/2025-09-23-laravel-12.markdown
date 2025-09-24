@@ -2,11 +2,13 @@
 layout: article
 title: "laravel 12 tutoral"
 date: 2025-09-23 23:35:00 +0800
-modify_date: 2025-09-23 23:45:00 +0800
+modify_date: 2025-09-23 08:00:00 +0800
 category: note
 lightbox: true
 ---
 Laravel Framework 版本：12.30.1
+
+PHP 版本：8.2
 
 ```sh
 $ php artisan about
@@ -31,4 +33,64 @@ Route::get("/{lang}/products/{id}", function(string $lang, string $id):string =>
 	->where("username", ".+"); // 任何字元都得
 ```
 
-Stop @ 1:03:31
+route redireact 都有幾種方式，每個 route 最後一定要加 name，方便其他地方引用。
+
+```php
+Route::get('/user/{id}/profile', function (int $id) {
+
+})
+    ->whereNumber('id')
+    ->name('user.profile');
+
+Route::get('/current-user', function () {
+//    $aboutPageUrl = route('user..profile', ['id' => 123]);
+//    return redirect()->route('user.profile');
+    return to_route('user.profile');
+});
+```
+
+Database migration 的話，`rollback` 就只有上一次，`fresh` 就系 drop 全部 table 就 up，`refresh` 就系 down 全部再 up 
+
+每次創建新嘅 migration 嘅時候，都要有 create_xxx_table。傳統，要跟。:)
+
+```sh
+$ php artisan make:migration create_xxx_table
+```
+
+其實我系要知道 Laravel 入邊嘅 ORM 系要點操作，先算系初步大師。
+
+```php
+        $car = Car::find(1); // 其實呢度有好多玩法
+        $car->price = 1000;
+        $car->save();
+```
+
+最好咩都用 `SoftDelete` 配搭 `deleted_at`
+
+---
+
+唔系好明，A table 和 B table 是 one-to-many 關係，然後
+
+```php
+// Model A
+public function carType(): BelongsTo
+{
+    return $this->belongsTo(CarType::class, 'car_type_id');
+}
+```
+
+```php
+// Model B
+public function cars(): HasMany
+{
+    return $this->hasMany(Car::class, 'car_type_id');
+}
+```
+
+點解兩個嘅 Forigen Key 都系用 Car 嘅 car_type_id? Model A 個度，唔系應該用 CarType 嘅 id 咩？
+
+```sh
+$ php artisan tinker # 呢個又系點玩嘅？
+```
+
+21:41 - 今日就到呢度先了... 唉...

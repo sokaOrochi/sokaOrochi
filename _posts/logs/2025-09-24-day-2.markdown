@@ -1,0 +1,56 @@
+---
+layout: article
+title: "繼續睇 php 個 tutorial"
+date: 2025-09-24 08:00:00 +0800
+modify_date: 2025-09-24 08:00:00 +0800
+category: log
+lightbox: true
+---
+
+今日繼續睇 [Laravel 12 Tutorial](https://www.youtube.com/watch?v=0M84Nk7iWkA&t=1268s) ，仲要記得先好。就算而家呢間公司做唔到落去了，都可以靠呢個再搵其他工作都得。不過之前珠海間公司仲未俾離職證明我，就好d奇怪。唔理了，繼續學習。點都對自己有利用價值嘅。唔好灰心就得。
+
+起碼而家每日都有 program run 緊系用嚟搵錢嘅先了，到10月頭，再睇下佢咩事，有無錢分。到時再算了，唔急。仲有就系，唔好咩都同其他人講，包括自己老母都系。
+
+無拉拉 監聽節目收數據 嘅 server 死咗。咁之後要諗埋呢種情況要點處理了。
+
+沖個涼，再繼續睇。
+
+繼續...
+
+> 睇呢個 [Elon Musk and Kevin Rose](https://www.youtube.com/watch?v=L-s_3b5fRd8)， 睇多d書啦，屌你。
+
+點樣可以系 view 入邊插 js ？插 js 系爲咗唔需要每次都重新刷新頁面就可以呈現數據給用戶，因爲每次 controller 俾數據 view 嘅時候，都要重新刷新數據先得。
+
+09:49 休息一下
+
+10:10 繼續睇 tutorial，但系好似個 監聽 program 出問題，今晚再睇，不過一定要睇個問題系邊度。
+
+感覺個 tutorial 斷咗一半咁。我都唔用 `blade`，講 `blade` 嘅部分我跳過了，前端部分我都系用 `React` 算了。既然系咁，youtube 上面免費嘅部分 Database 同埋 Request-Response 跟住練完就再睇返 Laracasts 嘅了。只系唔知道跳過嘅話，會唔會影響到之後視頻嘅內容學習。  
+
+我想通過 laracast 同埋 the codeholic 呢兩個學完 php + laravel 之後，用 react + laravel + mysql 開發 lang-9，今晚 9:00 諗下呢個計劃要點做？
+
+睇完 youtube 之後，就睇 laracast 嘅視頻
+
+**我想知道點樣系 laravel 入邊設計 database，同做到類似 SQL 嘅作用，因爲我有好多想法想用 database & table 表達出嚟**
+
+> 11:35 屙屎 + 抖抖
+
+12:30 繼續
+
+> 12:37 食飯
+
+12:51 繼續
+
+其實 `php artisan make:migrate` 唔難，難就系點解要咁 make? 公司福利唔錯，同返嚟第一間公司一樣，上班送教程。只不過開頭就進度緊張，大家適應咗之後就無事了。:D
+
+> 13:22 休息
+
+15:00 - 繼續，睇曬 model  個堆佢
+
+16:22 - 休息一下 -> Youtube 個教程最多睇埋 relationship, factory, 同埋 seeding（用多 個半鐘就夠）
+
+19:48 - 繼續 Youtube 條友講得 唔清唔楚 咁，唔睇了，睇 Laracast
+
+21:13 - 感覺睇嚟睇去都系皮毛，Service 層，OOP 包嚟包去 個度，點都講唔到...
+
+成個過程就系，數據庫設計，模組化編程 + 測試，接口 + 請求響應驗證 + 測試。應該系咁了

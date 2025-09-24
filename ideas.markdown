@@ -1,6 +1,6 @@
 ---
-layout: page
-title: Ideas
+layout: articles
+title: 想法
 articles:
   data_source: site.categories.idea
   type: brief
